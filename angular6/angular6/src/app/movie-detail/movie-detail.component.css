@@ -1,0 +1,9 @@
+.details{
+    background: yellow;
+    color: white;
+    margin: 1em;
+    padding: 0.5em;
+    max-width: 16em;
+    text-align: left;
+    font-size: 0.875em;
+}

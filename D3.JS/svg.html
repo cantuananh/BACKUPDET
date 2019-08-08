@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="d3.min.js"></script>
+</head>
+<body>
+    <!-- <svg width="300" height="300">
+        <line x1 = "100" y1 = "100" x2 = "200" y2 = "200" 
+   style = "stroke:rgb(255,0,0);stroke-width:2"/>
+    </svg> -->
+
+
+    <!-- <div class="svgcontainer">
+
+    </div>
+    <script>
+        var width =300;
+        var height=300;
+        var svg = d3.select(".svgcontainer").append("svg").attr("width","width").attr("height","height");
+        svg.append("line").attr("x1", 100).attr("y1",100).attr("x2",200).attr("y2",200)
+        .style("stroke","rgb(255,0,0)").style("stroke-width",2); -->
+
+
+
+        <!-- hinh vuong -->
+        <!-- <svg width="300" height="300">
+            <rect x="20" y="20" height="300" width="300" fill = "green"></rect></svg> -->
+
+    <!-- <div id="svgcontainer"></div>
+    <script>
+        var width=300;
+        var height=300;
+        var svg = d3.select("#svgcontainer").append("svg").attr("width", width).attr("height", height);
+        svg.append("rect").attr("x", 20).attr("y",20).attr("height",10).attr("width",300).attr("fill", "green") ;
+
+    </script> -->
+
+
+    <!-- hinh tron -->
+    <!-- <svg width="300" height="300">
+        <circle cx="200" cy="50" r="100" fill="green"></circle>
+    </svg> -->
+
+    <!-- <div id="svgcontainer"></div>
+    <script>
+        var width = 500;
+        var height = 500;
+        var svg = d3.select("#svgcontainer").append("svg").attr("width", width).attr("height",height).style("background-color","yellow");
+        svg.append("circle").attr("cx",300).attr("cy",350).attr("r",100).attr("fill","green");
+    </script> -->
+        
+    <!-- <svg height="300" width= "300">
+        <ellipse  cx="200" cy="200" rx="100" ry="50" fill="green"></ellipse>
+    </svg> -->
+
+    <div id="svgcontainer"></div>
+    <script>
+        var height=500;
+        var width=500;
+        var svg = d3.select("#svgcontainer").append("svg").attr("height", height).attr("width",width);
+        svg.append("ellipse").attr("cx",200).attr("cy",200).attr("rx",200).attr("ry",100).attr("fill","yellow");
+    </script>
+</body>
+</html>

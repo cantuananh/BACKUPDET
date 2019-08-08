@@ -1,0 +1,58 @@
+Vấn đề là gì?
+- Là một câu hỏi cần phải trả lời được
+- Là thứ cần phải giải quyết hoặc đang trong quá trình giải quyết.
+
+Phức tạp hơn một tí thì vấn đề là mối liên quan giữa ý chí của con người và thực tế.
+
+CÓ 2 loại vấn đê:
+- Vấn đề có cấu trúc tốt: mục tiêu rõ ràng, thông tin đầy đủ, bài toán quen thuộc.
+vd: mua sắm đầu tư nhỏ, tuyển dụng ...
+- Vấn đề có cấu trúc kém: thông tin không rõ ràng, thiếu thông tin, bài toán mới hoặc phức tạp.
+vd: Chiến lược công ty, mở rộng thị trường,...
+
+Nguồn gốc xuất phát của các loại vấn đề:
+- Bản thân
+- Bên ngoài
+- Nguồn lực
+- Tâm lý
+- ...
+
+Kĩ năng giải quyết vấn đề (Problem solving) là gì?
+- Kỹ năng giải quyết vấn đề là kỹ năng phân tích, nhìn nhận, đánh gia một vấn đề để có thể tự mình đưa ra các giải pháp có thể giải quyết được vấn đề khó khăn đang gặp phải.
+
+Tại sao phải học kĩ năng giải quyết vấn đề:
+- Kỹ năng giải quyết vấn đề là một kỹ năng mềm có tầm quan trọng rất cao trong số những kỹ năng mềm cần thiết cho cuộc sống ngày nay nó giúp bạn giải quyết khó khăn cũng như hướng bạn đi đúng hướng để đạt được đích đến của mình, ví dụ như khi bạn gặp một chuyện khó khăn trong cuộc sống thì bạn phải bình tĩnh suy nghĩ phân tích xem nguyên nhân của vấn đề này từ đâu mà ra, cách nhìn nhận vấn đề này của bạn như thế nào nó có nghiêm trọng, phức tạp không, hậu quả của vấn đề này để lại sẽ như thế nào sau đó bạn hãy nghĩ ra một phương pháp giải quyết vấn đề một cách tốt nhất hoặc ít nhất thì cũng có thể giảm thiểu được các hậu quả mà vấn đề đó gây ra.
+
+Để có thể hình thành và rèn luyện kỹ năng giải quyết vấn đề thì bạn sẽ phải làm theo quy trình giải quyết vấn đề sau đây:
+
+Bước 1: Phân tích, hiểu rõ nguồn gốc của vấn đề:
+Mỗi vấn đề khi xảy ra đều có nguồn gốc vấn đề và bạn phải hiểu rõ được nguồn gốc phát sinh vấn đề đó thì mới có thể đưa ra những giải pháp giải quyết vấn đề tốt nhất được. Bạn phải nắm được vấn đề xảy ra ở đâu giải quyết nó như thế nào để không làm ảnh hưởng đến tiến độ cũng như kết quả công việc cuối cùng.
+
+Bước 2: Đơn giản hóa mọi việc:
+Khi bạn đã hiểu rõ và phân tích xong vấn đề thì bạn hãy đơn giản hóa mọi việc cần làm để giải quyết vấn đề đó. Giống như khi bạn giải một bài toán thì bạn sẽ luôn đơn giản hóa bài toán đó về những bài toán để giải và bạn có thể giải toàn bộ bài toán đó một cách dễ dàng thì giải quyết vấn đề cũng tương tự như vậy hãy đơn giản hóa vấn đề chứ đừng làm phức tạp vấn đề để rồi tự làm khó bản thân mình và lúc đó bạn sẽ nghĩ vấn đề của mình quá lớn và không có cách giải quyết nào ổn thoả được.
+
+Bước 3: Nhìn nhận vấn đề:
+Trong bước này thì chúng ta cần tập chung trả lời 2 câu hỏi sau:
+- Vấn đề đó có nên giải quyết hay không?
+- Và nếu giải quyết vấn đề đó thì nó có đem lai lợi ích gì không?
+
+Bước 4: Chọn phương pháp tối ưu nhất, hiệu quả cao
+Sau khi đã hiểu bản chất thì bạn sẽ nghĩ ra rất nhiều giải pháp để có thể giải quyết vấn đề nhưng vấn đề lại được đặt ra là cách giải quyết đó có phải là cách giải quyết vấn đề tối ưu nhất không.Lúc này bạn cần phải trả lời các câu hỏi sau:
+- Các giải pháp sẽ được thực hiện như thế nào? 
+- Chúng sẽ thỏa mãn các mục tiêu của tôi đến mức độ nào?
+- Phí tổn (về tài chính, thời gian, công sức, ...) cho việc áp dụng mỗi giải pháp là bao nhiêu?
+- Hiệu quả của giải pháp nào sẽ lâu dài hơn?
+Sau khi trả lời hết các câu hỏi đó thì bạn sẽ nhận được một giải pháp giải quyết vấn đề mang tính hiệu quả cao, lâu dài và có tính khả thi.
+
+Bước 5: Thực hiện giải pháp
+Sau khi đã có vũ khí và chiến thuật thì ta phải chiến đấu đúng không nào hãy xoắn tay áo nên và bắt tay vào thực hiện giải pháp của mình hãy lập một bảng theo dõi tiến độ để theo dõi xem mình đã thực hiện tiến độ đến đâu bao nhiêu đã hoàn thành bao nhiêu giai đoạn rồi và kết quả của các giai đoạn có khả quan hay không.
+
+Bước 6: Đánh giá lại kết quả và rút kinh nghiệm
+- Nếu thất bại sẽ quay lại bước 4 chọn phương pháp khác và thực hiện tuần tự các bước tiếp theo
+- Còn nếu thành công thì bạn hãy đánh giá lại kết quả tổng thể một lần nữa để xem giải pháp đó đã giải quyết vấn đề đó một cách tốt nhất chưa, có đưa lại những kết quả mong đợi không, giải pháp đó còn có những thiếu xót nào không,… từ đó bạn sẽ rút được những kinh nghiệm quý báu và rèn luyện thêm kỹ năng giải quyết vấn đề để có thể vận dụng cho những lần sau được tốt hơn.
+
+Như vậy kỹ năng giải quyết vấn đề không phải tự nhiên mà có mà bạn phải học tập và rèn luyện thì mới có được, bạn phải luôn suy nghĩ cách giải quyết những vấn đề mà mình mắc phải và tự đưa ra những giải pháp để giải quyết nó và hãy hành động theo đúng kế hoạch mình đã chọn và dần dần bạn sẽ làm chủ dược kỹ năng giải quyết vấn đề.
+
+
+
+

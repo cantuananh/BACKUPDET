@@ -1,0 +1,29 @@
+Cấu trúc thư mục của Angular 6:
+- e2e: thư mục kiểm tra từ đầu đến cuối, chủ yếu là e2e được dùng để thử nghiệm 
+tích hợp và giúp đảm bảo ứng dụng hoạt động tốt
+- node_modules: gói npm được cài đặt là node_modules. Bạn có thể mở thư mục và  xem các gói có sẵn.
+-src: thư mục này là nơi chúng tôi làm việc với dự án Angular 6.
+
+Cấu trúc tệp của Angular :
+-.angular_ cli.json: nó chứa tên dự án, phiên  bản của cli.
+-edictorconfig: đây là tệp cấu hình cho chỉnh sửa.
+- gitignore: một tệp gitirnore phải được cam kết vào kho lưu trữ để chia sẻ các quy tắc
+bỏ qua  với bất kì người dùng nào khác sao chép kho lưu trữ
+- karma.conf.js: được fung để  kiểm tra đơn vị thông qua thước đo góc. tất cả thông tin cần
+thiết cho dự án cung cấp trong tệp karma.conf.js
+-package.json: thư viện sẽ được cài đặt vào node_modules khi chạu npm cài đặt.
+-protractor.conf.js - Đây là cấu hình thử nghiệm cần thiết cho ứng dụng.
+
+- tsconfig.json - Về cơ bản, nó chứa các tùy chọn trình biên dịch cần thiết trong quá trình biên dịch.
+
+-tslint.json - Đây là tệp cấu hình với các quy tắc sẽ được xem xét trong khi biên dịch.
+
+-app:
++app.module.ts:Nếu bạn mở tệp, bạn sẽ thấy mã có tham chiếu đến các thư viện khác nhau,
+ được nhập. Angular-cli đã sử dụng các thư viện mặc định này cho việc nhập - angular / core,
+  platform-browser. Các tên tự giải thích việc sử dụng các thư viện.
++app.component.css: có thể viết css ở đây.
++app.component.html: viết html ở tệp này.
++ app.component.ts:Lớp cho thành phần được định nghĩa ở đây. Bạn có thể thực hiện việc xử lý
+ cấu trúc html trong tệp .ts. Việc xử lý sẽ bao gồm các hoạt động như kết nối với cơ sở dữ 
+ liệu, tương tác với các thành phần khác, định tuyến, dịch vụ, v.v.

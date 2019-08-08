@@ -1,0 +1,123 @@
+
+#list-cart h3{
+	margin-top: 15px;
+	font-size: 24px;
+	color: #99ccff;
+	text-transform: uppercase;
+}
+#xac-nhan h3{
+	margin-top: 15px;
+	font-size: 24px;
+	color: #99ccff;
+	text-transform: uppercase;
+}
+/* table */
+.table .form-group{
+	margin: 0px;
+}
+.table .form-control{
+	border-radius: 0px;
+	padding: 0px 9px;
+}
+.table td{
+	vertical-align: middle !important;
+}
+.table td .price{
+	color: red;
+	font-weight: bold;
+}
+
+.table td a:hover{
+    color: #000000;
+}
+
+#total-price{
+	font-weight: bold;
+	font-size: 20px;
+}
+#total-price .total-price{
+	color: red;
+}
+.form-group .btn{
+	background: #99ccff;
+	border-radius: 0px;
+	color: #fff;
+}
+.form-control{
+	border-radius: 0px;
+}
+/* end table */
+.price{
+	font-weight: bold;
+	color: #D60000;
+}
+
+
+nav a#pull {
+	display: none;
+}
+@media only screen and (max-width : 480px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	#logo{
+		position: relative;
+	}
+	nav a#pull {
+		display: block;
+		float: left;
+		/* background-color: #ff9600; */
+		/* width: 100%; */
+		position: absolute;
+		top: 50%;
+	}
+	nav a#pull:after {
+		content:"";
+		/* background: url('../img/home/nav.png') no-repeat; */
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		/* rightright: 15px; */
+		top: 0px;
+		right: 0;
+	}
+	#menu{
+		border: 0;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	#menu{
+		border: 0;
+	}
+   /*  nav li a {
+        border-bottom: 1px solid #576979;
+        } */
+    }
+
+    .my-btn{
+	color: #fff;
+	border-radius: 0px;
+	border-color: #99ccff;
+	background: #99ccff;
+}
+.my-btn:last-child{
+	background: #d9534f;
+	border-color: #d43f3a;
+}
+
+td img{
+    max-width: 100%;
+}
+
+

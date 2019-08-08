@@ -1,0 +1,8 @@
+admin acc: admin@admin
+	admin
+
+gmail: itlaptophn@gmail.com
+	itlaptop123
+
+accwebhost: itlaptop
+	itlaptophn

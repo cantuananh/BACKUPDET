@@ -1,0 +1,59 @@
+Kĩ năng giải quyết vấn đề:
+b1:Nhin nhận vấn đề, trả lời 2 câu hỏi: vấn đề đó có nên giải quyết hay không? Nó có đem lại lợi ích gì không?
+b2: liệt kê các phương pháp để giải quyết vấn đề đó, và đánh độ ưu tiên
+b3: Chọn phương pháp tối ưu nhất, hiệu quả cao
+b4: Xem xét kết quả (Nếu thất bại thì quay lại bước 3 chọn phương pháp khác, còn nếu thành công thì chyển sang bước 5)
+b5: Rút kinh nghiệm để lần sau không mắc phải nữa!
+
+
+
+
+CRUD API
+ 1464  ll
+ 1465  mkdir projects
+ 1466  cd projects/
+ 1467  ll
+ 1468  express rest-api-with-mysql
+ 1469  cd rest-api-with-mysql/
+ 1470  ll
+ 1471  git init
+ 1472  gst
+ 1473  git status
+ 1474  touch .gitignore
+ 1475  code .
+ 1476  gst
+ 1477  git status
+ 1478  git add --all
+ 1479  git status
+ 1480  git commit -m"init project"
+ 1481  gst
+ 1482  git status
+ 1483  git checkout -b develop
+ 1484  git status
+ 1485  npm install
+ 1486  npm run
+ 1487  npm start
+ 1488  code .
+ 1489  npm start
+ 1490  ll
+ 1491  git status
+ 1492  git checkout -b feature/phone-rest-api
+ 1493  git status
+ 1494  cp routes/users.js routes/phones.js
+ 1495  git status
+ 1496  npm start
+ 1497  git status
+ 1498  git add app.js routes/phones.js 
+ 1499  git commit -m"init route"
+ 1500  git log
+ 1501  clear
+ 1502  npm start
+ 1503  npm install mysql --save
+ 1504  npm start
+ 1505  history
+ 1506  lear
+ 1507  clear
+ 1508  npm start
+ 1509  git status
+ 1510  git diff package.json
+ 1511  npm start

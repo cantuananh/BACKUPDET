@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+  <script data-require="d3@4.0.0" data-semver="4.0.0" 
+
+      src="https://d3js.org/d3.v4.min.js"></script>
+
+  <style>
+
+   .pie {
+
+  	margin: 20px;
+
+   }
+
+   .pie text {
+
+    	font-family: "Verdana";
+
+    	fill: #888;
+
+   }
+
+   .pie .name-text{
+
+    font-size: 1em;
+
+   }
+
+   .pie .value-text{
+
+     font-size: 3em;
+
+   }
+
+  </style>
+
+ </head>
+
+ <body>
+
+  <h1>Hello Chart!</h1>
+
+  <div id="chart"></div>
+
+  <script>
+
+   // Code goes here
+
+
+
+   var data = [
+
+    40, 20
+
+   ];
+
+   var text = "";
+
+    
+
+   var width = 500;
+
+   var height = 500;
+
+   var thickness = 40;
+
+   var duration = 0;
+
+    
+
+   var radius = Math.min(width, height) / 2;
+
+   var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    
+
+   var anglesRange = 0.5 * Math.PI;
+
+    
+
+   var svg = d3.select("#chart")
+
+   .append('svg')
+
+   .attr('class', 'pie')
+
+   .attr('width', width)
+
+   .attr('height', height);
+
+    
+
+   var g = svg.append('g')
+
+   .attr('transform', 'translate(' + (width/2) + ',' + (height/2) + ')');
+
+    
+
+   var arc = d3.arc()
+
+   .innerRadius(radius - thickness)
+
+   .outerRadius(100);
+
+    
+
+   var pie = d3.pie()
+
+   .value(function(d) { return d; })
+
+   .sort(null)
+
+   .startAngle( anglesRange * -1)
+
+  	.endAngle( anglesRange);
+
+  
+
+   var path = g.selectAll('path')
+
+   .data(pie(data))
+
+   .enter()
+
+   .append("g")
+
+    .append('path')
+
+    .attr('d', arc)
+
+    .attr('fill', (d,i) => color(i))
+
+    .each(function(d, i) { this._current = i; });
+
+   g.append('text')
+
+    .attr('text-anchor', 'middle')
+
+    .attr('dy', '.35em')
+
+    .text('70%');
+
+  </script>
+
+ </body>
+
+</html>

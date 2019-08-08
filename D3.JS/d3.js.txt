@@ -1,0 +1,132 @@
+- d3.JS(DATA DRIVEN DOCUMENTS): Là một thư viện javascript sử dụng để tạo trực quan hóa  tương tác trong trình duyệt
+- d3.js cho chúng ta thao tác với các phẩn từ cuả trang web.
+- why: tính linh hoạt của nó. Vì nó hoạt động hoàn hảo với các công nghệ web hiện có và có thể thao tác bất kỳ phần 
+nào của mô hình đối tượng tài liệu
+- Các tính năng của d3.js: 
++ Vô cùng linh hoạt.
++ Dễ sử dụng và nhanh chóng.
++ Hỗ trợ bộ dữ liệu lớn.
++ Lập trình khai báo.
++ Mã tái sử dụng.
++ Có nhiều chức năng tạo đường cong.
++ Liên kết dữ liệu với một thành phần hoặc nhóm các thành phần trong trang html.
+- Lợi ích: 
++ Trực quan dữ liệu tuyệt vời.
++ Nó là mô-đun. Bạn có thể tải xuống một mẩu D3.js nhỏ mà bạn muốn sử dụng. Không 
+cần phải tải toàn bộ thư viện mỗi lần.
++ Dễ dàng để xây dựng một thành phần biểu đồ.
++ Thao tác DOM.
+
+- các thành phần thiết lập khi phát triển môi trường d3.js:
++ D3.js library
++ Editor
++ Web browser
++ Web server
+
+- D3.js là một thư viện JavaScript mã nguồn mở cho -
++ Thao tác dựa trên dữ liệu của Mô hình Đối tượng Tài liệu (DOM).
++ Làm việc với dữ liệu và hình dạng.
++ Bố trí các yếu tố trực quan cho dữ liệu tuyến tính, phân cấp, mạng và địa lý.
++ Cho phép chuyển đổi suôn sẻ giữa các trạng thái giao diện người dùng (UI).
++ Kích hoạt tương tác người dùng hiệu quả.
+
+
+- append():thêm một khoảng thẻ mới bên trong thẻ cha.
+- text(): đặt nội dung của phần tử được chọn/nối thêm
+- html(): để đặt nội dung html của các phần tử được chọn / nối thêm
+- attr(): sử dụng đê thêm hoặc cập nhật thuộc tính của các thành phần được chọn
+- style(): sử dụng để đặt thuộc tính của các thành phần được chọn
+- classed(): được sử dụng riêng để thiết lập thuộc tính lớp class của một phần tử html (vì một
+ phần tử html có thể có nhiều lớp nên khi gán một lớp cho một phần tử html cần phải cân thận.)
+-selectall():  được sử dụng để chọn nhiều thành phần trong tài liệu hmtl
+
+- Tham gia dữ liệu: Tham gia dữ liệu cho phép chúng tôi tiêm, sửa đổi và xóa các
+ phần tử (phần tử HTML cũng như các phần tử SVG được nhúng) dựa trên tập dữ liệu 
+ trong tài liệu HTML hiện có.
+
+ - dữ liệu tham gia hoạt động ntn? :Mục đích chính của Tham gia dữ liệu là ánh xạ 
+ các thành phần của tài liệu hiện có với tập dữ liệu đã cho. Nó tạo ra một biểu 
+ diễn ảo của tài liệu đối với tập dữ liệu đã cho và cung cấp các phương thức để 
+ làm việc với biểu diễn ảo.
+
+ - enter(): cung cấp quyền truy cập vào dữ liệu còn lại (không được ánh xạ tới các
+  phần tử hiện có.
+  - exit(): để xử lý các mục dữ liệu được xóa tự động khỏi bộ dữ liệu.
+
+  - các phương pháp nối dữ liệu:
+
+  + datum(): dùng để đặt giá trị cho một phần tử trong tài liệu html. nó được dùng khi 1 phần tử được chọn dùng một
+  selector
+  + data(): được sử dụng để gán dữ liệu cho tập hợp các phần tử trong html
+  + enter():xuất ra tập hợp mục dữ liệu mà trước đó không có phần tử đồ họa nào tồn tại
+  + exit():đưa ra tập hợp các phần tử đồ họa không còn dữ liệu tồn tại nữa
+
+
+  - Các tính năng của SVG:
++ SVG là một định dạng hình ảnh dựa trên vector và nó dựa trên văn bản.
++ SVG có cấu trúc tương tự như HTML.
++ SVG có thể được biểu diễn dưới dạng mô hình đối tượng Tài liệu .
++ Thuộc tính SVG có thể được chỉ định làm thuộc tính.
++ SVG phải có vị trí tuyệt đối so với gốc (0, 0).
++ SVG có thể được bao gồm như trong tài liệu HTML.
+
+- HCN được biểu thị bằng thẻ <orth>
+- hình tròn: biểu thị bằng thẻ <circle>
+- hình elip được biểu thị bằng thẻ <ellipse>    
+
+- Chuyển đổi SVG
++ translate:Có hai tùy chọn, tx đề cập đến dịch dọc theo trục x và ty đề cập đến bản dịch dọc theo trục y
++ rotate: Phải có ba tùy chọn, góc tham chiếu góc quay, cx và cy đề cập đến tâm xoay trong trục x và y.
+ Nếu cx và cy không được chỉ định, thì nó mặc định là nguồn gốc hiện tại của hệ tọa độ. 
++ scale: Phải có hai tùy chọn, sx đề cập đến hệ số tỷ lệ dọc theo trục x và sy đề cập đến hệ số tỷ lệ dọc
+ theo trục y. Ở đây, sy là tùy chọn và nó lấy giá trị của sx , nếu nó không được chỉ định
++ skew: Nó có một tùy chọn duy nhất; các nghiêng góc đề cập đến góc dọc theo trục x cho SkewX và góc dọc
+ theo trục y cho Skewy.
+
+
+ - Chuyển đổi thư viện: d3.js cung cấp thư viện riêng để biến đổi mà không cần tạo các thuộc 
+ tính biến đổi theo cách thủ công. Nó cung cấp để xử lý tất cả các loại chuyển đổi.
+ Một số phương thức như là: transform(),translate(), scale(),rotate()...
+
+ - transition: có sẵn tất cả bộ chọn và nó sẵn sàng chuyển đổi. Phương thức này hỗ  trợ 
+ hầu hết quá trình chuyển đổi
+
+ -animation:
+ + duration(): cho phép các thay đổi của thuộc tính diễn ra suôn sẻ trong một khoảng thời 
+ gian xác định thay vì tức thời.
+    -d3.js cung cấp các kiểu nội suy sau
+        + interpolateNumber: hỗ trợ các giá trị số 
+        + interpolateRgb: màu sắc hỗ trợ 
+        + interpolateString: chuỗi hỗ trợ 
++ delay(): cho phép quá trình chuyển đổi diễn ra trong một khoảng thời gian nhất định
+
+- Vòng đời của sự chuyển đổi bao gồm 4 giai đoạn:
++ việc chuyển đổi được lên kế hoạch
++ quá trình chuyển đổi bắt d3
++ quá trình chuyển đổi chạy
++ quá trình chuyển đổi kết thúc 
+
+- d3.js được dùng để tạo biểu đồ tĩnh, được dùng để vẽ các biểu đồ sau: 
++ Biểu đồ thanh
++ Biểu đồ hình tròn
++ Biểu đồ tròn
++ Biểu đồ bánh rán
++ Biểu đồ đường
++ Biểu đồ bong bóng, vv
+
+-biểu đồ thanh: là một trong những loại biểu đồ được sử dụng phổ biến nhất hiện nay và được 
+sử dụng để hiển thị so sánh số lượng, tần suất hoặc số đo khác.
+
+- Biểu đồ hình tròn: là một đồ họa thống kê vòng tròn, được chia thành 
+các lát để minh họa một tỉ lệ số.
+
+- biều đồ tròn: Một biểu đồ tròn là một biểu đồ thống kê tròn. Nó được chia thành 
+các lát để hiển thị tỷ lệ số.
+Biểu đồ tròn có 2 phương thức:
++ d3.arc(): tạo ra một cung. bạn cần đặt bán kish trong và bán kính ngoài cho cung.
+Nếu bán kính bên trong là 0 kết quả sẽ là biểu đồ hình tròn, nếu không kết quả sẽ là biểu đồ 
+bánh rán
++ d3.pie(): được sử dụng để tạo biểu đồ hình tròn. Nó lấy dữ liệu từ tập dữ liệu và tính 
+toán góc bắt đầu và góc kết thúc cho mỗi hình tròn.
+
+
